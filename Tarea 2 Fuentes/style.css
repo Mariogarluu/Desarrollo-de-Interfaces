@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@font-face {
+    font-family: "Sacrifice";
+    src: url('Fuentes/SacrificeDemo-8Ox1B.woff') format('woff');
+}
+
+.safe1{
+    font-family: Courier, monospace;
+}
+
+.safe2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.safe2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.google1 {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.google2 {
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.google3 {
+    font-family: "Kablammo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+} 
+
+.wott {
+    font-family: "Sacrifice";
+}
