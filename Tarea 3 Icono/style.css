@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color: #f8f9fa; /* Color de fondo opcional */
+    padding: 10px 0; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Línea inferior opcional */
+}
+
+.menu {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+.menu a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    display: flex;
+    align-items: center; /* Alinea el texto y el ícono verticalmente */
+}
+
+.menu a svg {
+    width: 24px; /* Tamaño del ícono */
+    height: 24px;
+    margin-right: 8px; /* Espaciado entre el ícono y el texto */
+    fill: #333; /* Color del ícono */
+}
+
+.menu a:hover {
+    color: #007bff; /* Color del texto al pasar el cursor */
+    fill: #007bff; /* Color del ícono al pasar el cursor */
+}
+
+section {
+    margin-top: 500px; /* Espacio superior para evitar que el contenido quede pegado al borde */
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 20px; /* Espaciado entre los elementos */
+    justify-items: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    margin-bottom: 20px;
+}
+
+.footer-item img {
+    width: 40px; /* Tamaño de los iconos */
+    height: 40px;
+}
+
+.footer-item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
