@@ -8,16 +8,14 @@ Este repositorio contiene los proyectos, tareas y ejercicios realizados durante 
 
 ## 📂 Estructura del Repositorio
 
-```
-├── Tema 1/              # Fundamentos de diseño web (HTML/CSS)
-│   ├── Tarea 1 Color/   # Ejercicio sobre teoría del color
-│   ├── Tarea 2 Fuentes/ # Ejercicio sobre tipografías
-│   └── Tarea 3 Icono/   # Ejercicio sobre iconografía y SVG
-├── C#/                  # Proyectos en C# 
-│   ├── Hola_Mundo/      # Primer proyecto en C#
-│   └── Tarea 3/         # Ejercicios de inicio en C# (submodule)
-└── README.md            # Este archivo
-```
+- **[Tema 1/](Tema%201/README.md)** - Fundamentos de diseño web (HTML/CSS)
+  - **[Tarea 1 Color/](Tema%201/Tarea%201%20Color/README.md)** - Ejercicio sobre teoría del color
+  - **[Tarea 2 Fuentes/](Tema%201/Tarea%202%20Fuentes/README.md)** - Ejercicio sobre tipografías
+  - **[Tarea 3 Icono/](Tema%201/Tarea%203%20Icono/README.md)** - Ejercicio sobre iconografía y SVG
+- **[C#/](C%23/README.md)** - Proyectos en C#
+  - **[Hola_Mundo/](C%23/Hola_Mundo/README.md)** - Primer proyecto en C#
+  - **[Tarea 3/](https://github.com/Mariogarluu/Ejercicios-Incio-C-)** - Ejercicios de inicio en C# (submodule)
+- **README.md** - Este archivo
 
 ### 📌 Enlaces a Documentación
 
