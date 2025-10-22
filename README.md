@@ -17,16 +17,6 @@ Este repositorio contiene los proyectos, tareas y ejercicios realizados durante 
   - **[Tarea 3/](https://github.com/Mariogarluu/Ejercicios-Incio-C-)** - Ejercicios de inicio en C# (submodule)
 - **README.md** - Este archivo
 
-### 📌 Enlaces a Documentación
-
-- **[Tema 1 - Fundamentos de Diseño Web](Tema%201)**
-  - [Tarea 1 - Color](Tema%201/Tarea%201%20Color)
-  - [Tarea 2 - Fuentes](Tema%201/Tarea%202%20Fuentes)
-  - [Tarea 3 - Iconos](Tema%201/Tarea%203%20Icono)
-- **[C# - Proyectos en C#](C%23)**
-  - [Hola Mundo](C%23/Hola_Mundo)
-  - [Tarea 3 - Ejercicios de Inicio](https://github.com/Mariogarluu/Ejercicios-Incio-C-) (submodule)
-
 ## 🎯 Contenidos
 
 ### Tema 1: Fundamentos de Diseño Web
