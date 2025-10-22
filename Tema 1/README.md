@@ -6,19 +6,19 @@ Este tema cubre los conceptos fundamentales del diseño de interfaces web, inclu
 
 ## 📚 Contenido
 
-### [Tarea 1: Color](Tarea%201%20Color/README.md)
+### [Tarea 1: Color](Tarea%201%20Color)
 Estudio y aplicación de la teoría del color en el diseño web. Incluye:
 - Documentación sobre psicología del color
 - Ejemplos prácticos de paletas de colores
 - Principios de accesibilidad en el uso del color
 
-### [Tarea 2: Fuentes](Tarea%202%20Fuentes/README.md)
+### [Tarea 2: Fuentes](Tarea%202%20Fuentes)
 Exploración de diferentes tipos de fuentes y su implementación en páginas web:
 - **Safe Fonts**: Fuentes disponibles en todos los sistemas operativos
 - **Google Fonts**: Fuentes de la nube mediante Google Fonts
 - **Fuentes Personalizadas**: Conversión de archivos TTF a WOFF para uso web
 
-### [Tarea 3: Iconos](Tarea%203%20Icono/README.md)
+### [Tarea 3: Iconos](Tarea%203%20Icono)
 Implementación de iconografía en interfaces web:
 - Uso de SVG inline
 - Integración de Font Awesome

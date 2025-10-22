@@ -10,7 +10,7 @@ C# es un lenguaje de programación moderno y orientado a objetos desarrollado po
 
 ## 📁 Proyectos
 
-### [Hola_Mundo](Hola_Mundo/README.md)
+### [Hola_Mundo](Hola_Mundo)
 Proyecto inicial en C# que demuestra la estructura básica de una aplicación de consola.
 - Aplicación de consola simple
 - Primer contacto con la sintaxis de C#
