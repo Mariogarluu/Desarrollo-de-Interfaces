@@ -1,5 +1,7 @@
 # Tarea 2: Tipografías Web
 
+← [Volver a Tema 1](../README.md) | [Inicio](../../README.md)
+
 Esta tarea explora las diferentes formas de implementar y utilizar fuentes tipográficas en páginas web.
 
 ## 📋 Descripción

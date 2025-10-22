@@ -1,5 +1,7 @@
 # Tarea 3: Iconografía Web
 
+← [Volver a Tema 1](../README.md) | [Inicio](../../README.md)
+
 Esta tarea demuestra el uso de iconos SVG y Font Awesome en el diseño de interfaces web modernas.
 
 ## 📋 Descripción

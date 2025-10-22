@@ -1,5 +1,7 @@
 # Proyectos en C#
 
+← [Volver al Inicio](../README.md)
+
 Esta carpeta contiene proyectos desarrollados en C# como parte del curso de Desarrollo de Interfaces.
 
 ## 📋 Descripción
@@ -8,14 +10,18 @@ C# es un lenguaje de programación moderno y orientado a objetos desarrollado po
 
 ## 📁 Proyectos
 
-### Hola_Mundo
+### [Hola_Mundo](Hola_Mundo/README.md)
 Proyecto inicial en C# que demuestra la estructura básica de una aplicación de consola.
 - Aplicación de consola simple
 - Primer contacto con la sintaxis de C#
 - Estructura de un proyecto Visual Studio
 
-### Tarea 3
-Próxima tarea a desarrollar en C#.
+### [Tarea 3 - Ejercicios de Inicio](https://github.com/Mariogarluu/Ejercicios-Incio-C-)
+Colección de ejercicios iniciales en C# (repositorio externo).
+- **Nota**: Este es un submodule de Git que apunta a un repositorio externo
+- Contiene ejercicios prácticos para reforzar los conceptos básicos de C#
+- Para clonar con el submodule: `git clone --recurse-submodules <repo-url>`
+- Para inicializar después de clonar: `git submodule update --init --recursive`
 
 ## 🛠️ Requisitos
 
@@ -29,6 +35,25 @@ Para trabajar con estos proyectos necesitas:
 - **.NET Framework** o **.NET Core/5+**
   - Incluido con Visual Studio
   - [Descargar .NET SDK](https://dotnet.microsoft.com/download)
+
+## 📦 Trabajar con Submodules
+
+Esta carpeta contiene un submodule (Tarea 3) que apunta a un repositorio externo. Para trabajar con submodules:
+
+### Clonar el repositorio con submodules
+```bash
+git clone --recurse-submodules https://github.com/Mariogarluu/Desarrollo-de-Interfaces.git
+```
+
+### Inicializar submodules en un repositorio ya clonado
+```bash
+git submodule update --init --recursive
+```
+
+### Actualizar submodules a la última versión
+```bash
+git submodule update --remote
+```
 
 ## 🚀 Cómo Ejecutar los Proyectos
 

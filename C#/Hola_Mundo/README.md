@@ -1,5 +1,7 @@
 # Hola Mundo - Primer Proyecto en C#
 
+← [Volver a C#](../README.md) | [Inicio](../../README.md)
+
 Aplicación de consola básica en C# que muestra el mensaje "Hola Mundo" en la pantalla.
 
 ## 📋 Descripción

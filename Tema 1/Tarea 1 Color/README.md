@@ -1,5 +1,7 @@
 # Tarea 1: Teoría del Color
 
+← [Volver a Tema 1](../README.md) | [Inicio](../../README.md)
+
 Esta tarea aborda los fundamentos de la teoría del color y su aplicación en el diseño de interfaces.
 
 ## 📋 Descripción
