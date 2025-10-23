@@ -1,0 +1,8 @@
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\bin\Debug\Ejercicios_Delegados.exe.config
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\bin\Debug\Ejercicios_Delegados.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\bin\Debug\Ejercicios_Delegados.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\obj\Debug\Ejercicios_Delegados.csproj.AssemblyReference.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\obj\Debug\Ejercicios_Delegados.csproj.CoreCompileInputs.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\obj\Debug\Ejercicios_Delegados.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\obj\Debug\Ejercicios_Delegados.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Delegados\Ejercicios_Delegados\Ejercicios_Delegados\obj\Debug\Ejercicios_Delegados.exe.config
