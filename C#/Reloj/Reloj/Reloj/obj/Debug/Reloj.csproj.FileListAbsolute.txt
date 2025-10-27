@@ -1,0 +1,7 @@
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\bin\Debug\Reloj.exe.config
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\bin\Debug\Reloj.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\bin\Debug\Reloj.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\obj\Debug\Reloj.csproj.AssemblyReference.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\obj\Debug\Reloj.csproj.CoreCompileInputs.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\obj\Debug\Reloj.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Reloj\Reloj\Reloj\obj\Debug\Reloj.pdb

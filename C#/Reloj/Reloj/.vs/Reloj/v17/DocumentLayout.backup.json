@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Reloj\\Reloj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D472F7BC-4264-4B1E-B1F0-3E82C150EE3F}|Reloj\\Reloj.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\reloj\\reloj\\reloj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D472F7BC-4264-4B1E-B1F0-3E82C150EE3F}|Reloj\\Reloj.csproj|solutionrelative:reloj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Reloj\\Reloj\\Reloj\\Program.cs",
+              "RelativeDocumentMoniker": "Reloj\\Program.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Reloj\\Reloj\\Reloj\\Program.cs*",
+              "RelativeToolTip": "Reloj\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:35:32.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
