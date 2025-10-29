@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\servicionotificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\servicionotificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\serviciodescomprimir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\serviciodescomprimir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\archivoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\archivoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\asistente_descarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\asistente_descarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\eventosydelegados_v2\\eventosydelegados_v2\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C3A037-6AC1-490F-A2E2-2E0EFEBB3D68}|EventosyDelegados_v2\\EventosyDelegados_v2.csproj|solutionrelative:eventosydelegados_v2\\archivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicioNotificacion.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ServicioNotificacion.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\ServicioNotificacion.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ServicioNotificacion.cs",
+              "RelativeToolTip": "EventosyDelegados_v2\\ServicioNotificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:11:39.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioDescomprimir.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ServicioDescomprimir.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\ServicioDescomprimir.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ServicioDescomprimir.cs",
+              "RelativeToolTip": "EventosyDelegados_v2\\ServicioDescomprimir.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:10:44.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArchivoEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ArchivoEventArgs.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\ArchivoEventArgs.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\ArchivoEventArgs.cs",
+              "RelativeToolTip": "EventosyDelegados_v2\\ArchivoEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:09:05.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "asistente_descarga.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\asistente_descarga.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\asistente_descarga.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\asistente_descarga.cs",
+              "RelativeToolTip": "EventosyDelegados_v2\\asistente_descarga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:49:09.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "archivo.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\archivo.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\archivo.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\archivo.cs",
+              "RelativeToolTip": "EventosyDelegados_v2\\archivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:48:15.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\Program.cs",
+              "RelativeDocumentMoniker": "EventosyDelegados_v2\\Program.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\EventosyDelegados_v2\\EventosyDelegados_v2\\Program.cs*",
+              "RelativeToolTip": "EventosyDelegados_v2\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T07:27:18.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

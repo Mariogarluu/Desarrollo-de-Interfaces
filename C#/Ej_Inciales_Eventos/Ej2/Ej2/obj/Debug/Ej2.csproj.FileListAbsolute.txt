@@ -1,0 +1,7 @@
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\bin\Debug\Ej2.exe.config
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\bin\Debug\Ej2.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\bin\Debug\Ej2.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\obj\Debug\Ej2.csproj.AssemblyReference.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\obj\Debug\Ej2.csproj.CoreCompileInputs.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\obj\Debug\Ej2.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ej_Inciales_Eventos\Ej2\Ej2\obj\Debug\Ej2.pdb

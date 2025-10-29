@@ -1,0 +1,8 @@
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\bin\Debug\EventosyDelegados_v2.exe.config
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\bin\Debug\EventosyDelegados_v2.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\bin\Debug\EventosyDelegados_v2.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\obj\Debug\EventosyDelegados_v2.csproj.AssemblyReference.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\obj\Debug\EventosyDelegados_v2.csproj.CoreCompileInputs.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\obj\Debug\EventosyDelegados_v2.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\obj\Debug\EventosyDelegados_v2.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\EventosyDelegados_v2\EventosyDelegados_v2\obj\Debug\EventosyDelegados_v2.exe.config
