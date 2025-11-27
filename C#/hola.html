@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Teórico de C# - Versión Difícil</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f7fa;
+      color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      max-width: 650px;
+      width: 90%;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #0078d7;
+    }
+    .question {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .options label {
+      display: block;
+      padding: 8px 10px;
+      border-radius: 8px;
+      margin: 6px 0;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      transition: 0.2s;
+    }
+    .options label:hover {
+      background: #eef6ff;
+      border-color: #0078d7;
+    }
+    .feedback {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    button {
+      background: #0078d7;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.2s;
+      margin-top: 1rem;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Test Teórico de C# - Versión Difícil</h1>
+    <div id="quiz"></div>
+  </div>
+
+  <script>
+    const preguntasBase = [
+      ["¿Qué es C#?", ["Un lenguaje de programación orientado a objetos de Microsoft", "Un sistema de gestión de bases de datos", "Una versión avanzada de Java", "Un entorno de desarrollo"], 0],
+      ["¿Qué significa que C# sea orientado a objetos?", ["Que organiza el código en clases y objetos con atributos y métodos", "Que solo permite programar funciones sueltas", "Que no admite programación modular", "Que evita el uso de estructuras de control"], 0],
+      ["¿Qué es una clase?", ["Una plantilla que define las características y comportamientos de los objetos", "Una instancia concreta creada a partir de un objeto", "Una función que devuelve valores", "Un tipo de variable predefinida"], 0],
+      ["¿Qué es un objeto?", ["Una instancia de una clase que representa una entidad concreta", "Una definición de métodos dentro de una clase", "Una estructura vacía", "Una referencia a una interfaz"], 0],
+      ["¿Qué es un constructor?", ["Un método especial que inicializa un objeto al crearse", "Un método que destruye variables", "Un bloque de código que limpia la memoria", "Una propiedad que cambia valores"], 0],
+      ["¿Qué palabra clave se usa para crear un objeto?", ["new", "create", "init", "build"], 0],
+      ["¿Qué es un método?", ["Una función definida dentro de una clase que realiza una acción", "Una variable global del programa", "Un evento del sistema", "Una propiedad de solo lectura"], 0],
+      ["¿Qué es un campo (field)?", ["Una variable que pertenece a una clase o a un objeto", "Una función local dentro de un método", "Un evento declarado como privado", "Una propiedad de una interfaz"], 0],
+      ["¿Qué es una propiedad en C#?", ["Un miembro que controla el acceso a los campos de una clase", "Una variable local dentro de un método", "Una interfaz de comunicación entre clases", "Una constante pública del sistema"], 0],
+      ["¿Qué hace el accesor get en una propiedad?", ["Devuelve el valor del campo asociado a la propiedad", "Asigna un nuevo valor al campo", "Destruye el valor almacenado", "Inicializa una clase"], 0],
+      ["¿Qué hace el accesor set en una propiedad?", ["Asigna un valor al campo asociado a la propiedad", "Obtiene un valor de una lista", "Inicia un constructor", "Elimina un dato del sistema"], 0],
+      ["¿Qué palabra clave se usa para definir una propiedad automática?", ["{ get; set; }", "auto", "define", "init"], 0],
+      ["¿Qué palabra clave permite definir una propiedad de solo lectura?", ["readonly", "get", "sealed", "constant"], 0],
+      ["¿Qué palabra clave permite definir una propiedad de solo escritura?", ["set", "private", "get", "readonly"], 0],
+      ["¿Qué es la encapsulación?", ["El principio que impide el acceso directo a los datos internos de un objeto", "La capacidad de heredar métodos", "El uso de varias interfaces", "El proceso de ejecutar código en bucle"], 0],
+      ["¿Qué es la herencia?", ["El mecanismo que permite crear una clase basada en otra existente", "El proceso de duplicar variables", "El uso de métodos estáticos", "El paso de argumentos por valor"], 0],
+      ["¿Qué palabra clave se usa para heredar una clase?", [":", "inherits", "base", "extends"], 0],
+      ["¿Qué palabra clave indica que una clase no puede heredarse?", ["sealed", "abstract", "virtual", "static"], 0],
+      ["¿Qué palabra clave indica que un método puede sobrescribirse?", ["virtual", "override", "sealed", "base"], 0],
+      ["¿Qué palabra clave se usa para sobrescribir un método?", ["override", "virtual", "new", "base"], 0],
+      ["¿Qué es un delegado?", ["Un tipo que almacena referencias a uno o varios métodos con una firma específica", "Un método anónimo dentro de una clase", "Una variable que guarda datos de evento", "Una clase genérica con parámetros"], 0],
+      ["¿Qué palabra clave se usa para declarar un delegado?", ["delegate", "event", "handler", "lambda"], 0],
+      ["¿Qué es un evento?", ["Un mecanismo que permite comunicar sucesos entre objetos mediante delegados", "Una función llamada automáticamente", "Una clase que gestiona acciones del usuario", "Una propiedad que almacena información"], 0],
+      ["¿Qué palabra clave se usa para declarar un evento?", ["event", "trigger", "signal", "notify"], 0],
+      ["¿Qué patrón implementan los eventos en C#?", ["Patrón Observador (Observer)", "Patrón Fábrica (Factory)", "Patrón Adaptador (Adapter)", "Patrón Proxy"], 0],
+      ["¿Qué palabra clave se usa para suscribir un método a un evento?", ["+=", "=", "subscribe", "add"], 0],
+      ["¿Qué palabra clave se usa para desuscribir un método de un evento?", ["-=", "remove", "unsubscribe", "clear"], 0],
+      ["¿Qué clase base se usa para crear argumentos de eventos personalizados?", ["EventArgs", "ArgsBase", "EventBase", "BaseArgs"], 0],
+      ["¿Qué es un método anónimo?", ["Un método sin nombre que se define directamente en una expresión", "Un método público estático", "Un tipo de delegado genérico", "Una interfaz de evento"], 0],
+      ["¿Qué palabra clave se usa para definir un método anónimo?", ["delegate", "lambda", "func", "action"], 0],
+      ["¿Qué es una expresión lambda?", ["Una forma concisa de definir funciones anónimas", "Una clase abstracta", "Una propiedad de evento", "Un tipo de excepción"], 0],
+      ["¿Qué operador se usa en una expresión lambda?", ["=>", "->", "::", "="], 0],
+      ["¿Qué es un espacio de nombres (namespace)?", ["Una forma de agrupar clases, interfaces y otros elementos del código", "Una clase especial que contiene métodos", "Un evento global", "Un método de inicialización"], 0],
+      ["¿Qué palabra clave define un espacio de nombres?", ["namespace", "using", "package", "module"], 0],
+      ["¿Qué palabra clave se usa para incluir otros espacios de nombres?", ["using", "import", "include", "add"], 0],
+      ["¿Qué método se ejecuta al iniciar un programa C#?", ["Main()", "Run()", "Init()", "Start()"], 0],
+      ["¿Qué tipo de valor devuelve un método que no devuelve nada?", ["void", "null", "none", "empty"], 0],
+      ["¿Qué palabra clave se usa para crear una variable constante?", ["const", "readonly", "static", "fixed"], 0],
+      ["¿Qué palabra clave se usa para definir una clase abstracta?", ["abstract", "virtual", "base", "sealed"], 0],
+      ["¿Qué palabra clave se usa para definir una interfaz?", ["interface", "implements", "contract", "proto"], 0],
+      ["¿Qué palabra clave implementa una interfaz?", [":", "implements", "interface", "inherits"], 0],
+      ["¿Qué es el polimorfismo?", ["La capacidad de un objeto de comportarse de diferentes maneras según su tipo", "El proceso de ocultar métodos", "La creación de múltiples clases base", "El paso de parámetros por referencia"], 0],
+      ["¿Qué es una sobrecarga de método?", ["Definir varios métodos con el mismo nombre pero diferentes parámetros", "Redefinir un método heredado", "Duplicar código fuente", "Sobrescribir una variable"], 0],
+      ["¿Qué significa el modificador static?", ["Que pertenece a la clase y no a una instancia específica", "Que solo puede usarse dentro de un método", "Que no puede ser heredado", "Que es inmutable"], 0],
+      ["¿Qué es una excepción?", ["Un error controlable que ocurre durante la ejecución del programa", "Un fallo de compilación", "Un evento del sistema operativo", "Un método que detiene el código"], 0],
+      ["¿Qué palabra clave se usa para capturar excepciones?", ["try-catch", "handle", "exception", "if"], 0],
+      ["¿Qué palabra clave se usa para lanzar una excepción?", ["throw", "raise", "catch", "error"], 0],
+      ["¿Qué palabra clave garantiza que un bloque de código se ejecute siempre?", ["finally", "ensure", "always", "repeat"], 0],
+      ["¿Qué tipo genérico de evento usa C# comúnmente?", ["EventHandler<T>", "GenericEvent<T>", "DelegateEvent<T>", "FuncEvent<T>"], 0],
+      ["¿Qué representa el parámetro sender en un evento?", ["El objeto que origina el evento", "El receptor del evento", "El tipo de dato del evento", "El argumento del método"], 0],
+      ["¿Qué representa EventArgs.Empty?", ["Un objeto de evento sin datos adicionales", "Un evento con error", "Un evento cancelado", "Un evento que no existe"], 0],
+      ["¿Qué significa el operador '?.'?", ["Permite ejecutar una llamada solo si el objeto no es null", "Compara dos valores", "Concatena cadenas", "Evalúa expresiones lógicas"], 0],
+      ["¿Qué ocurre si lanzas un evento sin suscriptores y no usas '?.Invoke()'?", ["Se lanza una excepción NullReferenceException", "El evento se ejecuta normalmente", "El programa lo ignora", "Se crea un delegado vacío"], 0],
+      ["¿Qué palabra clave se usa para pausar la ejecución de un hilo?", ["Thread.Sleep()", "Wait()", "Pause()", "Stop()"], 0],
+      ["¿Qué es un delegate multicast?", ["Un delegado que puede invocar varios métodos asociados", "Un delegado que ejecuta código asíncrono", "Un delegado que se repite en bucle", "Un evento estático"], 0],
+      ["¿Qué ventaja tiene usar propiedades en lugar de campos públicos?", ["Permiten validar y controlar el acceso a los datos", "Usan menos memoria", "Se ejecutan más rápido", "No requieren métodos"], 0],
+      ["¿Qué palabra clave permite acceder al miembro de la clase base?", ["base", "super", "parent", "root"], 0],
+      ["¿Qué significa el modificador public?", ["Que el miembro es accesible desde cualquier clase o ensamblado", "Que solo puede usarse dentro del mismo espacio de nombres", "Que no puede ser heredado", "Que es inmutable"], 0],
+      ["¿Qué significa el modificador private?", ["Que el miembro solo es accesible dentro de la propia clase", "Que puede ser accedido por clases derivadas", "Que es visible desde todo el proyecto", "Que solo puede usarse en interfaces"], 0]
+    ];
+
+    // Mezclar respuestas
+    const preguntas = preguntasBase.map(([texto, opciones, correctaIdx]) => {
+      const mezcladas = opciones.map((op, i) => ({ texto: op, esCorrecta: i === correctaIdx }));
+      mezcladas.sort(() => Math.random() - 0.5);
+      return [texto, mezcladas];
+    });
+
+    let index = 0;
+    let correctas = 0;
+    let fallos = 0;
+    const quiz = document.getElementById("quiz");
+
+    function mostrarPregunta() {
+      if (index >= preguntas.length) {
+        const total = preguntas.length;
+        const notaSinPenalizar = ((correctas / total) * 10).toFixed(2);
+        const penalizacion = Math.floor(fallos / 3);
+        const correctasPenalizadas = Math.max(0, correctas - penalizacion);
+        const notaConPenalizacion = ((correctasPenalizadas / total) * 10).toFixed(2);
+
+        quiz.innerHTML = `
+          <h2>🎓 Test completado</h2>
+          <p>Has acertado <b>${correctas}</b> y fallado <b>${fallos}</b> de <b>${total}</b> preguntas.</p>
+          <p><b>Nota:</b> ${notaSinPenalizar} / 10 <small>(sin quitar puntos)</small></p>
+          <p><b>Nota:</b> ${notaConPenalizacion} / 10 <small>(quitando puntos)</small></p>
+          <button onclick="reiniciar()">🔄 Reiniciar</button>
+        `;
+        return;
+      }
+
+      const [pregunta, opciones] = preguntas[index];
+      let html = `<div class='question'>${index + 1}. ${pregunta}</div><div class='options'>`;
+      opciones.forEach((op, i) => {
+        html += `<label><input type='radio' name='respuesta' value='${i}'> ${op.texto}</label>`;
+      });
+      html += `</div><button onclick='verificar()'>Responder</button><div class='feedback' id='feedback'></div>`;
+      quiz.innerHTML = html;
+    }
+
+    function verificar() {
+      const seleccionada = document.querySelector("input[name='respuesta']:checked");
+      if (!seleccionada) return alert("Selecciona una opción");
+
+      const idx = parseInt(seleccionada.value);
+      const correcta = preguntas[index][1][idx].esCorrecta;
+      const feedback = document.getElementById("feedback");
+
+      if (correcta) {
+        feedback.textContent = "✅ ¡Correcto!";
+        feedback.style.color = "green";
+        correctas++;
+      } else {
+        const respuestaCorrecta = preguntas[index][1].find(o => o.esCorrecta).texto;
+        feedback.textContent = `❌ Incorrecto. Respuesta correcta: "${respuestaCorrecta}".`;
+        feedback.style.color = "red";
+        fallos++;
+      }
+
+      index++;
+      setTimeout(mostrarPregunta, 1300);
+    }
+
+    function reiniciar() {
+      index = 0;
+      correctas = 0;
+      fallos = 0;
+      mostrarPregunta();
+    }
+
+    mostrarPregunta();
+  </script>
+</body>
+</html>

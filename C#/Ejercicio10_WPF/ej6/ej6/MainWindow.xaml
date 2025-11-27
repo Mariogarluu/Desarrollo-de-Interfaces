@@ -1,0 +1,11 @@
+﻿<Window x:Class="ej6.Ejercicio6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 6" Height="250" Width="400">
+    <StackPanel Margin="10">
+        <TextBlock x:Name="tbResultado" Height="60" TextWrapping="Wrap"/>
+        <CheckBox x:Name="chkAlternativo" Content="Mostrar texto alternativo" Margin="0,10,0,0"/>
+        <Button x:Name="btnActualizar" Content="Actualizar texto" Margin="0,10,0,0" 
+                Click="BtnActualizar_Click"/>
+    </StackPanel>
+</Window>

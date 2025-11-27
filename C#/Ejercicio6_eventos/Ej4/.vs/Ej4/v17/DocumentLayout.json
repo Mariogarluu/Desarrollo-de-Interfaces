@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio6_eventos\\Ej4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7154BAB1-1312-46E2-A783-4873A1948333}|Ej4\\Ej4.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\ejercicio6_eventos\\ej4\\ej4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7154BAB1-1312-46E2-A783-4873A1948333}|Ej4\\Ej4.csproj|solutionrelative:ej4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio6_eventos\\Ej4\\Ej4\\Program.cs",
+              "RelativeDocumentMoniker": "Ej4\\Program.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio6_eventos\\Ej4\\Ej4\\Program.cs",
+              "RelativeToolTip": "Ej4\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:36:39.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

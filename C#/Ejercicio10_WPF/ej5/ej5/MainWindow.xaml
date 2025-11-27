@@ -1,0 +1,15 @@
+﻿<Window x:Class="ej5.Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CheckBox - 2DAM" Height="250" Width="400">
+    <StackPanel Margin="15">
+        <TextBlock Text="Módulos que pienso aprobar" FontWeight="Bold" Margin="0,0,0,10"/>
+        <CheckBox x:Name="chkTodos" Content="Todos los módulos" IsThreeState="True" 
+                  Click="ChkTodos_Click" Margin="0,0,0,5"/>
+        <StackPanel Margin="20,0,0,0">
+            <CheckBox x:Name="chkDI" Content="Desarrollo de Interfaces" Click="SubCheck_Click"/>
+            <CheckBox x:Name="chkSGE" Content="Sistemas de Gestión Empresarial" Click="SubCheck_Click"/>
+            <CheckBox x:Name="chkAD" Content="Acceso a Datos" Click="SubCheck_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

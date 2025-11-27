@@ -1,0 +1,21 @@
+﻿<Window x:Class="ej6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 6 - Temas" Height="300" Width="500"
+        x:Name="ventanaPrincipal">
+    <StackPanel Margin="20" HorizontalAlignment="Center">
+        <Label Content="Selecciona un tema de presentación:" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <ComboBox x:Name="cmbTemas" Width="200" SelectionChanged="CmbTemas_SelectionChanged">
+            <ComboBoxItem Content="Claro" ToolTip="Fondo blanco con texto negro, ideal para luz diurna." Tag="Claro"/>
+            <ComboBoxItem Content="Oscuro" ToolTip="Fondo negro con texto blanco, ideal para ambientes oscuros." Tag="Oscuro"/>
+            <ComboBoxItem Content="Azul" ToolTip="Fondo azul con texto blanco, para un diseño moderno y limpio." Tag="Azul"/>
+        </ComboBox>
+
+        <TextBlock x:Name="txtDemo" 
+                   Text="Este es un texto de prueba" 
+                   Margin="0,50,0,0" 
+                   HorizontalAlignment="Center"
+                   FontWeight="Bold"/>
+    </StackPanel>
+</Window>

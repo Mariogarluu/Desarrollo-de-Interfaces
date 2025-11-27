@@ -1,0 +1,7 @@
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\obj\Debug\Ej1.csproj.AssemblyReference.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\obj\Debug\Ej1.csproj.CoreCompileInputs.cache
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\bin\Debug\Ej1.exe.config
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\bin\Debug\Ej1.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\bin\Debug\Ej1.pdb
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\obj\Debug\Ej1.exe
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio6_eventos\Ej1\Ej1\obj\Debug\Ej1.pdb

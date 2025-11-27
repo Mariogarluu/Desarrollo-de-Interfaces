@@ -1,0 +1,15 @@
+﻿<Window x:Class="ej3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 3 y 4" Height="200" Width="300"
+        x:Name="wnd">
+    <StackPanel Margin="20">
+        <Label Content="Escribe aquí:"/>
+
+        <TextBox Text="{Binding ElementName=wnd, Path=TextoUsuario, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 Margin="0,0,0,20"/>
+
+        <Label Content="Reflejo en botón:"/>
+        <Button Content="{Binding ElementName=wnd, Path=TextoUsuario}" Height="30"/>
+    </StackPanel>
+</Window>

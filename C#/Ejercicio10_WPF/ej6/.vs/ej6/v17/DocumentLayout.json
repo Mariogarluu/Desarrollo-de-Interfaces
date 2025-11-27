@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio10_WPF\\ej6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7031519-5298-483C-A2BC-0EE094E3745F}|ej6\\ej6.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\ejercicio10_wpf\\ej6\\ej6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7031519-5298-483C-A2BC-0EE094E3745F}|ej6\\ej6.csproj|solutionrelative:ej6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7031519-5298-483C-A2BC-0EE094E3745F}|ej6\\ej6.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\ejercicio10_wpf\\ej6\\ej6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7031519-5298-483C-A2BC-0EE094E3745F}|ej6\\ej6.csproj|solutionrelative:ej6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio10_WPF\\ej6\\ej6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ej6\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio10_WPF\\ej6\\ej6\\MainWindow.xaml",
+              "RelativeToolTip": "ej6\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T13:03:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio10_WPF\\ej6\\ej6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ej6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio10_WPF\\ej6\\ej6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ej6\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:03:53.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

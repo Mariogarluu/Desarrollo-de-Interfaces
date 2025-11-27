@@ -1,0 +1,14 @@
+﻿<Window x:Class="ej4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 4" Height="200" Width="400">
+    <StackPanel Margin="20">
+        <Label Content="Selecciona una fruta:"/>
+        <ComboBox x:Name="cmbFrutas" Margin="0,0,0,20">
+            <ComboBoxItem Content="Manzana"/>
+            <ComboBoxItem Content="Naranja"/>
+            <ComboBoxItem Content="Plátano"/>
+        </ComboBox>
+        <Button Content="Confirmar selección" Click="BtnConfirmar_Click" Padding="10"/>
+    </StackPanel>
+</Window>

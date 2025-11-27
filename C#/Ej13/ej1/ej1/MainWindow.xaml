@@ -1,0 +1,17 @@
+﻿<Window x:Class="ej1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 1" Height="300" Width="400">
+    <StackPanel Margin="20">
+        <ComboBox x:Name="cmbAnimales" Height="50" SelectionChanged="CmbAnimales_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Imagen}" Width="32" Height="32" Margin="0,0,10,0"/>
+                        <TextBlock Text="{Binding Nombre}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+    </StackPanel>
+</Window>

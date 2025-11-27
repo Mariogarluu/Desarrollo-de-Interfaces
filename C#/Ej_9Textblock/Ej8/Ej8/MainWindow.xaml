@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ej8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 8" Height="250" Width="500">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" FontSize="16" Margin="10">
+            <Span Foreground="DarkRed">
+                <Run Text="Este es un ejemplo de cómo Span permite incluir diferentes elementos, como un " />
+                <Hyperlink NavigateUri="https://www.google.com" RequestNavigate="Hyperlink_RequestNavigate">
+                    enlace
+                </Hyperlink>.
+            </Span>
+            <Run Text=" Run solo aplica estilos a su propio texto." Foreground="Gray"/>
+        </TextBlock>
+    </Grid>
+</Window>

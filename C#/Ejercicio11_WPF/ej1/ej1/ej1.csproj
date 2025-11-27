@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Csharp.png" />
+    <None Remove="Resources\java.png" />
+    <None Remove="Resources\js.png" />
+    <None Remove="Resources\python.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Csharp.png" />
+    <Content Include="Resources\java.png" />
+    <Content Include="Resources\js.png" />
+    <Content Include="Resources\python.png" />
+  </ItemGroup>
+
+</Project>

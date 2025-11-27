@@ -1,0 +1,15 @@
+﻿<Window x:Class="ej1.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio 1" Height="250" Width="400"
+        Background="Gray">
+    <Grid>
+        <TextBox 
+            Margin="10"
+            AcceptsReturn="True"
+            TextWrapping="Wrap"
+            SpellCheck.IsEnabled="True"
+            Language="es-ES"
+            VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
