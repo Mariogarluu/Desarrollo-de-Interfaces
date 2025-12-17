@@ -1,0 +1,54 @@
+﻿<Window x:Class="Ejercicio2_UserControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        xmlns:mis="http://miscontroles.com"
+        
+        Title="Ejercicio 2 User Control" Height="500" Width="600">
+
+    <ScrollViewer>
+        <StackPanel Margin="20">
+            <TextBlock Text="1. UserControl con DPs" FontWeight="Bold" Margin="0,0,0,5"/>
+            <mis:CampoDeTextoDP Etiqueta="Nombre Completo:" Valor="Usuario Inicial" Margin="0,0,0,20"/>
+
+            <TextBlock Text="2. Custom Control (Estilo externo Amarillo)" FontWeight="Bold" Margin="0,0,0,5"/>
+            <mis:BotonRedondo Content="OK" Margin="0,0,0,20">
+                <mis:BotonRedondo.Style>
+                    <Style TargetType="mis:BotonRedondo">
+                        <Setter Property="Background" Value="Yellow"/>
+                    </Style>
+                </mis:BotonRedondo.Style>
+            </mis:BotonRedondo>
+
+            <TextBlock Text="3. Toggle Button (Lógica OnApplyTemplate)" FontWeight="Bold" Margin="0,0,0,5"/>
+            <mis:ToggleColorButton Content="Clic para cambiar color" Margin="0,0,0,20"/>
+
+            <TextBlock Text="4. Binding ElementName (TextBox -> UserControl)" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtMensaje" Text="Escribe aquí..." Width="200" HorizontalAlignment="Left" Margin="0,0,0,5"/>
+            <mis:CampoDeTextoDP Etiqueta="Copia:" Valor="{Binding Text, ElementName=txtMensaje}" Margin="0,0,0,20"/>
+
+            <TextBlock Text="5. Trigger por Puntuación (>75 cambia a Verde)" FontWeight="Bold" Margin="0,0,0,5"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Puntos: "/>
+                <TextBlock Text="{Binding Puntuacion}"/>
+                <Slider Minimum="0" Maximum="100" Value="{Binding Puntuacion}" Width="150" Margin="10,0"/>
+            </StackPanel>
+
+            <mis:BotonRedondo x:Name="btnPuntuacion" Content="{Binding Puntuacion}" Width="60" Height="60">
+                <mis:BotonRedondo.Style>
+                    <Style TargetType="mis:BotonRedondo">
+                        <Setter Property="Background" Value="Red"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Puntuacion, RelativeSource={RelativeSource AncestorType=Window}}" Value="100">
+                                <Setter Property="Foreground" Value="Green"/>
+                                <Setter Property="Background" Value="LightGreen"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </mis:BotonRedondo.Style>
+            </mis:BotonRedondo>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>

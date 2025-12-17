@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AlertIndicator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ColorLabel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CoordinateDisplay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FixedLengthInput.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NumericInput.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PriceCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

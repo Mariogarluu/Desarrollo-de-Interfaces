@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="MiLibreriaWPF.CampoDeTextoDP"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="ucRoot">
+    <StackPanel Margin="5">
+        <TextBlock Text="{Binding Etiqueta, ElementName=ucRoot}" FontWeight="Bold"/>
+        <TextBox Text="{Binding Valor, ElementName=ucRoot, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,55 @@
+﻿<Window x:Class="Ejercicio1User_Control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Ejercicio1User_Control.Controls"
+        Title="Ejercicios UserControl" Height="700" Width="500">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20">
+
+            <TextBlock Text="Ejercicio 1: ColorLabel" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Vertical">
+                <controls:ColorLabel Texto="Aprobado" ColorDeFondo="LightGreen" Margin="0,0,0,10"/>
+                <controls:ColorLabel Texto="Pendiente" ColorDeFondo="LightYellow"/>
+            </StackPanel>
+            <Separator Margin="0,15"/>
+
+            <TextBlock Text="Ejercicio 2: PriceCard" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Horizontal">
+                <controls:PriceCard Precio="€49.99" Descripcion="Suscripción Mensual" Margin="0,0,20,0"/>
+                <controls:PriceCard Precio="€99.99" Descripcion="Soporte Premium"/>
+            </StackPanel>
+            <Separator Margin="0,15"/>
+
+            <TextBlock Text="Ejercicio 3: NumericInput" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Edad (Max 3):"/>
+                <controls:NumericInput MaxLength="3" Margin="0,0,0,10"/>
+                <TextBlock Text="Código Postal (Max 5):"/>
+                <controls:NumericInput MaxLength="5"/>
+            </StackPanel>
+            <Separator Margin="0,15"/>
+
+            <TextBlock Text="Ejercicio 4: AlertIndicator" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Vertical">
+                <controls:AlertIndicator MensajePrincipal="Conexión OK" AlertaActiva="False" MensajeAdvertencia="Error de red." Margin="0,0,0,10"/>
+                <controls:AlertIndicator MensajePrincipal="Procesando Datos" AlertaActiva="True" MensajeAdvertencia="Alta latencia."/>
+            </StackPanel>
+            <Separator Margin="0,15"/>
+
+            <TextBlock Text="Ejercicio 5: FixedLengthInput" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Vertical">
+                <controls:FixedLengthInput LongitudMaxima="8" Placeholder="Escriba código postal" Margin="0,0,0,10"/>
+                <controls:FixedLengthInput LongitudMaxima="4" Placeholder="PIN de seguridad"/>
+            </StackPanel>
+            <Separator Margin="0,15"/>
+
+            <TextBlock Text="Ejercicio 6: CoordinateDisplay" FontWeight="Bold" Margin="0,0,0,5"/>
+            <StackPanel Orientation="Vertical">
+                <controls:CoordinateDisplay Titulo="Posición GPS Casa" CoordenadaX="12.5532" CoordenadaY="-78.1044" Margin="0,0,0,10"/>
+                <controls:CoordinateDisplay Titulo="Posición Actual" CoordenadaX="40.4167" CoordenadaY="-3.7037"/>
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>

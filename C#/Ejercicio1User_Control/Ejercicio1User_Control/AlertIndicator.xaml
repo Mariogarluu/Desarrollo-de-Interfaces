@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Ejercicio1User_Control.Controls.AlertIndicator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="ucAlert">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </UserControl.Resources>
+
+    <StackPanel>
+        <TextBlock Text="{Binding MensajePrincipal, ElementName=ucAlert}" 
+                   FontSize="14" FontWeight="Bold"/>
+
+        <Border Background="#FFDDDD" BorderBrush="Red" BorderThickness="1" CornerRadius="3" Margin="0,5,0,0" Padding="5"
+                Visibility="{Binding AlertaActiva, ElementName=ucAlert, Converter={StaticResource BoolToVis}}">
+            <TextBlock Text="{Binding MensajeAdvertencia, ElementName=ucAlert}" 
+                       Foreground="Red"/>
+        </Border>
+    </StackPanel>
+</UserControl>

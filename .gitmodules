@@ -1,3 +1,6 @@
 [submodule "C#/Tarea 3"]
 	path = "C#/Tarea 3"
 	url = https://github.com/Mariogarluu/Ejercicios-Incio-C-.git
+[submodule "C#/Proyecto_Series"]
+	path = "C#/Proyecto_Series"
+	url = https://github.com/Mariogarluu/Proyecto_Final-UD2-C-Sharp

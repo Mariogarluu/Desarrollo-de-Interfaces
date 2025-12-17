@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\democontroles\\democontroles\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|solutionrelative:democontroles\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\democontroles\\democontroles\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|solutionrelative:democontroles\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\democontroles\\democontroles\\labeledinput.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|solutionrelative:democontroles\\labeledinput.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\democontroles\\democontroles\\democontroles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E0A7FD5-0310-4719-B8D3-F8157628BAF5}|DemoControles\\DemoControles.csproj|solutionrelative:democontroles\\democontroles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabeledInput.xaml",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\LabeledInput.xaml",
+              "RelativeDocumentMoniker": "DemoControles\\LabeledInput.xaml",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\LabeledInput.xaml",
+              "RelativeToolTip": "DemoControles\\LabeledInput.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T09:45:50.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoControles",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\DemoControles.csproj",
+              "RelativeDocumentMoniker": "DemoControles\\DemoControles.csproj",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\DemoControles.csproj",
+              "RelativeToolTip": "DemoControles\\DemoControles.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T09:45:17.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DemoControles\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\MainWindow.xaml",
+              "RelativeToolTip": "DemoControles\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T09:44:47.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DemoControles\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\DemoControles\\DemoControles\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DemoControles\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:44:46.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

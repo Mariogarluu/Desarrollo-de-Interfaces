@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Ejercicio1User_Control.Controls.FixedLengthInput"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="ucFixed">
+    <StackPanel>
+        <DockPanel LastChildFill="False">
+            <TextBlock Text="Entrada de datos" FontWeight="SemiBold" DockPanel.Dock="Left"/>
+            <TextBlock Text="{Binding LongitudMaxima, ElementName=ucFixed, StringFormat='Máx: {0} caracteres'}" 
+                       Foreground="Gray" DockPanel.Dock="Right" FontSize="10"/>
+        </DockPanel>
+
+        <Grid>
+            <TextBox x:Name="InputBox"
+                     Text="{Binding Valor, ElementName=ucFixed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     MaxLength="{Binding LongitudMaxima, ElementName=ucFixed}"
+                     Padding="5" Background="Transparent" Panel.ZIndex="2"/>
+
+            <TextBlock Text="{Binding Placeholder, ElementName=ucFixed}"
+                       Foreground="LightGray" Padding="5" Panel.ZIndex="1" IsHitTestVisible="False">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=InputBox}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+    </StackPanel>
+</UserControl>

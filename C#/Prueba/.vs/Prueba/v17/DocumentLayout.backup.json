@@ -18,16 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Prueba\\Prueba\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Prueba\\Prueba\\MainWindow.xaml",
-              "RelativeToolTip": "Prueba\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Prueba\\Prueba\\MainWindow.xaml*",
+              "RelativeToolTip": "Prueba\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-06T09:58:01.672Z",
               "EditorCaption": ""
@@ -42,8 +46,7 @@
               "RelativeToolTip": "Prueba\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T09:58:01.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T09:58:01.37Z"
             }
           ]
         }
