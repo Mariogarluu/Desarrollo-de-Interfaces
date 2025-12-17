@@ -46,14 +46,17 @@ Implementación de iconografía en interfaces web:
 Tema 1/
 ├── Tarea 1 Color/
 │   ├── Act0Ud1.pdf
-│   └── Presentacion color.pdf
+│   ├── Presentacion color.pdf
+│   └── README.md
 ├── Tarea 2 Fuentes/
 │   ├── index.html
 │   ├── style.css
-│   └── Fuentes/
+│   ├── Fuentes/
+│   └── README.md
 ├── Tarea 3 Icono/
 │   ├── index.html
 │   ├── style.css
-│   └── img/
-└── Tarea_8-Mario_García_Luque.pdf
+│   ├── img/
+│   └── README.md
+└── Tarea_8-Mario_García_Luque.pdf (Documentación adicional del tema)
 ```
