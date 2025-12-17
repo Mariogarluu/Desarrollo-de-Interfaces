@@ -22,3 +22,5 @@ C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\
 C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\Ejercicio2_UserControl\obj\Debug\net8.0-windows\Ejercicio2_UserControl.pdb
 C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\Ejercicio2_UserControl\obj\Debug\net8.0-windows\Ejercicio2_UserControl.genruntimeconfig.cache
 C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\Ejercicio2_UserControl\obj\Debug\net8.0-windows\ref\Ejercicio2_UserControl.dll
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\Ejercicio2_UserControl\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mgarluq1102\Desktop\Desarrollo-de-Interfaces\C#\Ejercicio2_UserControl\Ejercicio2_UserControl\obj\Debug\net8.0-windows\Ejercicio2_UserControl_MarkupCompile.lref

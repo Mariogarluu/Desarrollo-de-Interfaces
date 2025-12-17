@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{69A7470E-58E6-4C63-85C8-1D16BBDB1518}|Ejercicio2_UserControl\\Ejercicio2_UserControl.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\ejercicio2_usercontrol\\ejercicio2_usercontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69A7470E-58E6-4C63-85C8-1D16BBDB1518}|Ejercicio2_UserControl\\Ejercicio2_UserControl.csproj|solutionrelative:ejercicio2_usercontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A7470E-58E6-4C63-85C8-1D16BBDB1518}|Ejercicio2_UserControl\\Ejercicio2_UserControl.csproj|c:\\users\\mgarluq1102\\desktop\\desarrollo-de-interfaces\\c#\\ejercicio2_usercontrol\\ejercicio2_usercontrol\\converters\\esmayorqueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A7470E-58E6-4C63-85C8-1D16BBDB1518}|Ejercicio2_UserControl\\Ejercicio2_UserControl.csproj|solutionrelative:ejercicio2_usercontrol\\converters\\esmayorqueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,12 +30,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EsMayorQueConverter.cs",
+              "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio2_UserControl\\Ejercicio2_UserControl\\Converters\\EsMayorQueConverter.cs",
+              "RelativeDocumentMoniker": "Ejercicio2_UserControl\\Converters\\EsMayorQueConverter.cs",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio2_UserControl\\Ejercicio2_UserControl\\Converters\\EsMayorQueConverter.cs",
+              "RelativeToolTip": "Ejercicio2_UserControl\\Converters\\EsMayorQueConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T08:16:49.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio2_UserControl\\Ejercicio2_UserControl\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Ejercicio2_UserControl\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio2_UserControl\\Ejercicio2_UserControl\\MainWindow.xaml",
-              "RelativeToolTip": "Ejercicio2_UserControl\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mgarluq1102\\Desktop\\Desarrollo-de-Interfaces\\C#\\Ejercicio2_UserControl\\Ejercicio2_UserControl\\MainWindow.xaml*",
+              "RelativeToolTip": "Ejercicio2_UserControl\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-17T07:21:48.799Z",
               "EditorCaption": ""
@@ -46,7 +63,8 @@
               "RelativeToolTip": "Ejercicio2_UserControl\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:21:45.977Z"
+              "WhenOpened": "2025-12-17T07:21:45.977Z",
+              "EditorCaption": ""
             }
           ]
         }
